@@ -4,9 +4,8 @@ from sudoku import web
 import os
 
 
-
 def main():
-    
+
     app = web.create_app()
     app.debug = True
 

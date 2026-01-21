@@ -18,7 +18,8 @@ def create_app():
     app.config["SECRET_KEY"] = "dev-key"
 
     # views.register_blueprint(app)
-    app.register_blueprint(views.module)
+    # app.register_blueprint(app)
+    views.register_blueprint(app)
 
     return app
 
