@@ -3,6 +3,12 @@
 
 # CSS
 **/app.css
+*.pyc
+*.cfg
+__pycache__
+node_modules
+*.egg-*
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
