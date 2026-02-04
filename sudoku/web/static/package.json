@@ -1,0 +1,24 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./css/setup.css -o ./css/app.css",
+    "tw:watch": "npx @tailwindcss/cli -i ./css/setup.css -o ./css/app.css --watch",
+    "tw:minify": "npx @tailwindcss/cli -i ./css/setup.css -o ./css/app.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@phosphor-icons/web": "^2.1.2",
+    "@tailwindcss/cli": "^4.1.18",
+    "htmx": "^0.0.2",
+    "tailwindcss": "^4.1.18",
+    "tailwindcss-motion": "^1.1.1"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.17"
+  }
+}

@@ -1,7 +1,5 @@
-# ไฟล์: sudoku/web/views/game.py
 from flask import Blueprint
 
-# ตัวแปรนี้ต้องชื่อ 'module' เท่านั้น เพราะสคริปต์ Step 2 มันมองหาชื่อนี้
 module = Blueprint("game", __name__, url_prefix="/")
 
 
